@@ -1,0 +1,56 @@
+.cart_button
+{
+display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 126px;
+  height:auto;
+  background: #11af88;
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 0px 0px 0px 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  line-height: 38px;
+  visibility: hidden;
+  opacity: 0;
+}
+.product-item:hover .cart_button {
+  visibility: visible;
+  opacity: 1;
+}
+.cart_button:hover {
+  background: rgb(22, 110, 84);
+}
+.wishlist_btn
+{
+display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 126px;
+  height:auto;
+  background: #fe4c50;
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 0px 0px 5px 0px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  line-height: 38px;
+  visibility: hidden;
+  opacity: 0;
+}
+.product-item:hover .wishlist_btn {
+  visibility: visible;
+  opacity: 1;
+}
+.wishlist_btn:hover {
+  background: #d93d40;
+}
